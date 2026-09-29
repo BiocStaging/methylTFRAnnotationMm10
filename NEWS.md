@@ -1,3 +1,12 @@
+# methylTFRAnnotationMm10 0.99.11
+
+* BiocCheck fixes: the data help pages (`?motif_gcfreq`,
+  `?tf_bindsites`, `?genomewide_GC`) have a `\value` section, and
+  their examples run (reading `metadata.csv`) instead of using
+  `\dontrun`.
+* Shortened vignette lines to at most 80 characters.
+* Added `CITATION.cff`.
+
 # methylTFRAnnotationMm10 0.99.10
 
 Changes in response to the Bioconductor review:
