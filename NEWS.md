@@ -1,3 +1,16 @@
+# methylTFRAnnotationMm10 0.99.12
+
+Changes in response to the second review:
+
+* Depends on R (>= 4.6.0).
+* Input checking: an invalid `methylTFRAnnotationMm10.datadir` option or
+  `METHYL_TFRANNOTATION_Mm10_DIR` value (not a single string, or a directory
+  that does not exist) now gives an informative error. Tests
+  added.
+* Added `inst/extdata/README.md` describing `metadata.csv` and
+  each AnnotationHub resource.
+* The vignette's Installation section also installs methylTFR.
+
 # methylTFRAnnotationMm10 0.99.11
 
 * BiocCheck fixes: the data help pages (`?motif_gcfreq`,
